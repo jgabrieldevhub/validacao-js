@@ -21,7 +21,7 @@
             <div class="col-12">
               <label for="tituloFilme" class="form-label">Título do Filme</label>
               <input type="text" class="form-control" id="tituloFilme" name="tituloFilme"
-                placeholder="Ex.: Cidade de Deus">
+                placeholder="Ex.: Cidade de Deus" minlength="1" maxlength="200">
             </div>
 
             <div class="col-12">
@@ -191,7 +191,7 @@
           </div>
 
           <div class="d-flex gap-2 mt-4">
-            <button type="button" class="btn btn-primary" onclick="fnValidacao()">Salvar Cadastro</button>
+            <button type="button" class="btn btn-primary" onclick="fnNomeTitulo()">Salvar Cadastro</button>
             <button type="reset" class="btn btn-outline-secondary">Limpar</button>
           </div>
         </form>

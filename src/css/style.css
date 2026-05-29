@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+      background: #f4f6f9;
+    }
+
+    .page-wrap {
+      max-width: 980px;
+    }

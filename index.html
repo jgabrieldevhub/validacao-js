@@ -27,7 +27,7 @@
             <div class="col-12">
               <label for="tituloOriginal" class="form-label">Título Original</label>
               <input type="text" class="form-control" id="tituloOriginal" name="tituloOriginal"
-                placeholder="Ex.: City of God">
+                placeholder="Ex.: City of God" minlength="1" maxlength="200">
             </div>
 
             <div class="col-md-4">
@@ -191,7 +191,7 @@
           </div>
 
           <div class="d-flex gap-2 mt-4">
-            <button type="button" class="btn btn-primary" onclick="fnNomeTitulo()">Salvar Cadastro</button>
+            <button type="button" class="btn btn-primary" onclick="fnTituloOriginal()">Salvar Cadastro</button>
             <button type="reset" class="btn btn-outline-secondary">Limpar</button>
           </div>
         </form>
